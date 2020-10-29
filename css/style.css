@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+a{
+    text-decoration: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+    width:1240px;
+    margin:0 auto;
+}
+header{
+    border-bottom: 1px solid #c1c1c1;
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header__nav ul{
+    display: flex;
+}
+.header__nav li{
+    margin-right: 20px;
+}
+.header__title h1{
+    font-size: 20px;
+}
+.header__title span{
+    font-size: 36px;
+    color:green;
+}
+.header__nav a{
+    color:#000;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.header__whats{
+    background:#32A801;
+    padding:15px;
+}
+.header__whats p{
+    font-weight: 700;
+    text-align: center;
+}
+.header__whats p:first-child{  
+    margin-bottom: 10px;
+}
+.header__whats span{
+    color:#fff;
+}
+.header__nav a:hover{
+    text-decoration: underline;
+}
+.offtop__title h2{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.offtop__item-title{
+    color:#fff;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+.offtop__item-text{
+    width:500px;
+    color:#fff;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 300px;
+    font-size: 16px;   
+}
+.offtop{
+    margin-bottom: 50px;
+}
+.offtop__item-btn{
+    position: relative;
+    bottom:10px;
+    text-align: center;
+}
+.offtop__item-btn a{
+    color:#f1f1f1;
+}
+.offtop__item-btn a:hover{
+    text-decoration: underline;
+}
+.slick-prev{
+    left: 10px;
+    z-index:10;
+}
+.slick-next{
+    right:15px;
+    z-index: 10;
+}
+.offtop__item1{
+    background:url('./../images/slider.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.offtop__item2{
+    background:url('https://cdn.nur.kz/images/720x405/64295bfb36a0ee5f.webp?version=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.politics__items, .world__items, .show__items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.politics__item,.world__item, .show__item{
+    width:272px;
+    border:1px solid #c1c1c1;
+    margin-bottom: 30px;
+    border-radius: 5%;
+}
+.titles{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.politics__item-img, .workd__item-img, .show__item-img{
+    margin-bottom: 10px;
+}
+.politics__item-title p ,.world__item-title p , .show__item-title p{
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+.politics__item-text p, .world__item-text p, .show__item-text p{
+    font-size: 13px;
+    margin-bottom: 16px;
+    color:#757575;
+    margin-left: 8px;
+}
+.politics__item-date, .world__item-date, .show__item-date{
+    font-size: 12px;
+    color:#9e9e9e;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+.politics{
+    display: none;
+}
+.show{
+    display: none;
+}
+.world{
+    display: none;
+}
+.active{
+    display: block;
+}
