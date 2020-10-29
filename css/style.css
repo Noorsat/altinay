@@ -150,6 +150,24 @@ header{
     background-size: cover;
     background-position: center;
 }
+.offtop__item3{
+    background:url('https://cdn.nur.kz/images/720x405/e01de60ddd6c04a6.webp?version=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.offtop__item4{
+    background:url('https://tengrinews.kz/userdata/news/2020/news_418472/thumb_m/photo_340205.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.offtop__item5{
+    background:url('https://tengrinews.kz/userdata/news/2020/news_418271/thumb_m/photo_339982.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .politics__items, .world__items, .show__items{
     display: flex;
     justify-content: space-around;
